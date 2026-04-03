@@ -111,6 +111,7 @@ export default function App() {
           <div className="py-2"><i className="fa-solid fa-user-doctor text-3xl mb-2 text-blue-300"></i><h3 className="font-heading font-bold text-xl">25+ Years</h3><p className="text-blue-200 text-sm">Medical Experience</p></div>
           <div className="py-2"><i className="fa-solid fa-certificate text-3xl mb-2 text-blue-300"></i><h3 className="font-heading font-bold text-xl">Certified Doctors</h3><p className="text-blue-200 text-sm">Govt. Registered</p></div>
           <div className="py-2"><i className="fa-solid fa-face-smile text-3xl mb-2 text-blue-300"></i><h3 className="font-heading font-bold text-xl">10,000+</h3><p className="text-blue-200 text-sm">Happy Patients</p></div>
+          <div className="py-2"><i className="fa-solid fa-hospital text-3xl mb-2 text-blue-300"></i><h3 className="font-heading font-bold text-xl">Modern OT</h3><p className="text-blue-200 text-sm">Operation Theatre</p></div>
         </div>
       </section>
 
@@ -120,7 +121,7 @@ export default function App() {
           <h2 className="font-heading text-3xl md:text-4xl font-bold text-blue-900 mb-4">Our Medical Services</h2>
           <p className="text-gray-600">Comprehensive healthcare solutions under one roof.</p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {/* Service Card 1 */}
           <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition border border-gray-100 group">
             <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-900 text-2xl mb-4 group-hover:bg-blue-900 group-hover:text-white transition">
@@ -145,7 +146,15 @@ export default function App() {
             <h3 className="font-heading font-bold text-xl mb-2">Specialized Care</h3>
             <p className="text-gray-600 text-sm mb-4">Expert treatments for chronic conditions and specialist consultations.</p>
           </div>
-          {/* Service Card 4 */}
+          {/* Service Card 4 (New: OT) */}
+          <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition border border-gray-100 group">
+            <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center text-blue-900 text-2xl mb-4 group-hover:bg-blue-900 group-hover:text-white transition">
+              <i className="fa-solid fa-hospital-user"></i>
+            </div>
+            <h3 className="font-heading font-bold text-xl mb-2">Operation Theatre</h3>
+            <p className="text-gray-600 text-sm mb-4">Modern OT facilities for minor and major surgical procedures.</p>
+          </div>
+          {/* Service Card 5 */}
           <div className="bg-white p-6 rounded-2xl shadow-md hover:shadow-xl transition border border-gray-100 group">
             <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center text-red-600 text-2xl mb-4 group-hover:bg-red-600 group-hover:text-white transition">
               <i className="fa-solid fa-kit-medical"></i>
@@ -187,6 +196,7 @@ export default function App() {
                   <label className="block text-gray-700 font-medium mb-2" htmlFor="service">Service Needed</label>
                   <select id="service" name="service" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-900 transition bg-white">
                     <option>Doctor Consultation</option>
+                    <option>Surgery / Operation</option>
                     <option>Blood Test / Lab</option>
                     <option>General Inquiry</option>
                   </select>
