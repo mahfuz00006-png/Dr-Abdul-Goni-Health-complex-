@@ -115,6 +115,66 @@ export default function App() {
         </div>
       </section>
 
+      {/* 👨‍⚕️ ABOUT THE DOCTOR SECTION */}
+      <section id="about" className="py-16 px-6 bg-white">
+        <div className="max-w-4xl mx-auto text-center">
+          {/* Doctor Info */}
+          <div>
+            <h4 className="text-blue-600 font-bold tracking-widest uppercase text-sm mb-2">Main Specialist</h4>
+            <h2 className="font-heading text-3xl md:text-5xl font-bold text-blue-900 mb-4">Dr. Abdul Gani Khandaker</h2>
+            <p className="text-blue-800 font-medium text-lg mb-6 leading-relaxed">
+              MBBS (Dhaka), BCS (Health) PGT (Medicine), MCPS (Gynecology & Obstetrics)<br/>
+              Consultant (Gynecology & Obstetrics) Sherpur Sadar Hospital
+            </p>
+            
+            <p className="text-gray-600 mb-8 leading-relaxed italic border-l-4 border-blue-600 pl-4 text-left max-w-2xl mx-auto">
+              "A long-time trusted and well-known gynecologist and obstetrician, specialist surgeon, and specialist in medicine and pediatrics, who has been a trusted and well-known person in the Jamalpur-Sherpur district."
+            </p>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left">
+              <div className="space-y-3">
+                <h5 className="font-bold text-blue-900 flex items-center gap-2">
+                  <i className="fa-solid fa-check-double text-green-500"></i> Specialized Treatments
+                </h5>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Pressure during pregnancy, pre-eclampsia</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> All types of treatment during pregnancy</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Pregnant mother checkup</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Infertility treatment</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Polycystic ovary syndrome (PCOS)</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Irregular menstruation & abdominal pain</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Uterine problems & infections</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Uterine prolapse</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Watery hands and feet during pregnancy</li>
+                </ul>
+              </div>
+              <div className="space-y-3">
+                <h5 className="font-bold text-blue-900 flex items-center gap-2">
+                  <i className="fa-solid fa-stethoscope text-green-500"></i> General & Advanced Care
+                </h5>
+                <ul className="text-sm text-gray-600 space-y-2">
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Pregnancy complications (Diabetes, BP, Seizures)</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Decreased baby movement</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Recurrent miscarriage</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Abnormal bleeding</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Burning sensation in the urinary tract</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Burning hands & feet after menopause</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Specialist in medicine and pediatrics</li>
+                  <li className="flex items-start gap-2"><i className="fa-solid fa-circle-check text-blue-400 mt-1 text-[10px]"></i> Treat all diseases</li>
+                </ul>
+              </div>
+            </div>
+            
+            <div className="mt-8 p-4 bg-blue-50 rounded-xl border border-blue-100 max-w-2xl mx-auto">
+              <p className="text-blue-900 font-bold flex items-center justify-center gap-2">
+                <i className="fa-solid fa-users text-xl"></i> 
+                Medical treatment is provided for both men and women.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* 🩺 SERVICES SECTION */}
       <section id="services" className="py-16 px-6 max-w-6xl mx-auto">
         <div className="text-center mb-12">
