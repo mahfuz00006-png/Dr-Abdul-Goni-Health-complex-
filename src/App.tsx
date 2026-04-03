@@ -28,9 +28,15 @@ export default function App() {
   return (
     <div className="font-sans text-gray-800 bg-gray-50 antialiased">
       {/* 🚨 EMERGENCY BANNER (Sticky Top) */}
-      <div className="bg-red-600 text-white text-center py-2 px-4 text-sm md:text-base font-bold sticky top-0 z-50 shadow-md">
-        <i className="fa-solid fa-truck-medical mr-2 hover:animate-pulse"></i> 
-        24/7 Emergency Care: <a href="tel:01704477055" className="underline decoration-white underline-offset-2">Call 01704-477055</a>
+      <div className="bg-red-600 text-white text-center py-2 px-4 text-sm md:text-base font-bold sticky top-0 z-50 shadow-md flex flex-wrap justify-center gap-x-4">
+        <div className="flex items-center">
+          <i className="fa-solid fa-truck-medical mr-2 hover:animate-pulse"></i> 
+          24/7 Emergency Care: <a href="tel:01704477055" className="underline decoration-white underline-offset-2 ml-1">Call 01704-477055</a>
+        </div>
+        <div className="flex items-center">
+          <i className="fa-solid fa-ambulance mr-2"></i>
+          Ambulance: <a href="tel:999" className="underline decoration-white underline-offset-2 ml-1">Call 999</a>
+        </div>
       </div>
 
       {/* 🏥 NAVBAR */}
@@ -237,6 +243,7 @@ export default function App() {
             <h4 className="text-white font-heading font-bold text-lg mb-4">Contact Info</h4>
             <ul className="space-y-3 text-sm">
               <li><i className="fa-solid fa-phone text-green-500 mr-2"></i> 01704-477055</li>
+              <li><i className="fa-solid fa-truck-medical text-green-500 mr-2"></i> Ambulance: 999</li>
               <li><i className="fa-solid fa-envelope text-green-500 mr-2"></i> mithukh9@gmail.com</li>
               <li className="flex items-start gap-2">
                 <i className="fa-solid fa-map-pin text-green-500 mt-1"></i> 
