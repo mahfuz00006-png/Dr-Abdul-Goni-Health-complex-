@@ -19,7 +19,7 @@ export default function App() {
 
     const message = `Hello Dr Abdul Goni Health Complex! 🏥\n\nI would like to book an appointment.\n\n👤 *Name:* ${name}\n📞 *Phone:* ${phone}\n🩺 *Service:* ${service}\n📅 *Date:* ${date}\n\nPlease confirm my slot.`;
 
-    const whatsappNumber = "+8801704477055";
+    const whatsappNumber = "01704477055";
     const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 
     window.open(whatsappURL, '_blank');
@@ -85,7 +85,7 @@ export default function App() {
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             {/* WhatsApp CTA (Primary) */}
-            <a href="https://wa.me/+8801704477055?text=Hello%20Dr%20Abdul%20Goni%20Health%20Complex,%20I%20need%20help." target="_blank" rel="noreferrer" className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-600 transition shadow-lg flex items-center justify-center gap-2">
+            <a href="https://wa.me/01704477055?text=Hello%20Dr%20Abdul%20Goni%20Health%20Complex,%20I%20need%20help." target="_blank" rel="noreferrer" className="bg-green-500 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-green-600 transition shadow-lg flex items-center justify-center gap-2">
               <i className="fa-brands fa-whatsapp text-2xl"></i> Chat on WhatsApp
             </a>
             {/* Call CTA */}
@@ -160,7 +160,7 @@ export default function App() {
             <div className="space-y-4">
               <p className="flex items-center gap-3">
                 <i className="fa-solid fa-location-dot text-xl"></i> 
-                <a href="https://maps.app.goo.gl/cqfx7nJpF5MVfS9R8" target="_blank" rel="noreferrer" className="hover:underline">Malibug More , Bakshigonaj, Jamalpur 2140</a>
+                <a href="https://maps.app.goo.gl/cqfx7nJpF5MVfS9R8" target="_blank" rel="noreferrer" className="hover:underline">Malibaag More, Bakshiganj, Jamalpur 2140</a>
               </p>
               <p className="flex items-center gap-3"><i className="fa-solid fa-clock text-xl"></i> Open 9:00 AM - 10:00 PM</p>
             </div>
@@ -200,7 +200,7 @@ export default function App() {
       </section>
 
       {/* 💬 FLOATING WHATSAPP BUTTON (Global CRO) */}
-      <a href="https://wa.me/+8801704477055" target="_blank" rel="noreferrer" className="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition z-50 animate-bounce">
+      <a href="https://wa.me/01704477055" target="_blank" rel="noreferrer" className="fixed bottom-6 right-6 bg-green-500 text-white w-14 h-14 rounded-full flex items-center justify-center text-3xl shadow-2xl hover:scale-110 transition z-50 animate-bounce">
         <i className="fa-brands fa-whatsapp"></i>
       </a>
 
@@ -208,7 +208,7 @@ export default function App() {
       <section className="w-full h-64 md:h-96">
         <iframe 
           title="Dr Abdul Goni Health Complex Location"
-          src="https://maps.google.com/maps?q=Malibug+More+,+Bakshigonaj,+Jamalpur+2140&t=&z=15&ie=UTF8&iwloc=&output=embed" 
+          src="https://maps.google.com/maps?q=Malibaag+More,+Bakshiganj,+Jamalpur+2140&t=&z=15&ie=UTF8&iwloc=&output=embed" 
           width="100%" 
           height="100%" 
           style={{ border: 0 }} 
@@ -240,7 +240,7 @@ export default function App() {
               <li><i className="fa-solid fa-envelope text-green-500 mr-2"></i> mithukh9@gmail.com</li>
               <li className="flex items-start gap-2">
                 <i className="fa-solid fa-map-pin text-green-500 mt-1"></i> 
-                <a href="https://maps.app.goo.gl/cqfx7nJpF5MVfS9R8" target="_blank" rel="noreferrer" className="hover:text-white transition">Malibug More , Bakshigonaj, Jamalpur 2140</a>
+                <a href="https://maps.app.goo.gl/cqfx7nJpF5MVfS9R8" target="_blank" rel="noreferrer" className="hover:text-white transition">Malibaag More, Bakshiganj, Jamalpur 2140</a>
               </li>
             </ul>
           </div>
